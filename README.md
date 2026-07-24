@@ -15,7 +15,10 @@ Página de apresentação dos meus projetos, publicada com GitHub Pages.
 index.html            página inteira (HTML + CSS + JS inline, sem build)
 assets/prints/        capturas dos aplicativos rodando
 assets/dados/         ícones de dado em pixel art, vindos da Mesa do Mestre
+assets/curriculo-*.pdf  currículo oferecido para download na página
 ```
+
+Seções: início, sobre, experiência, habilidades, projetos, formação e contato.
 
 Sem dependências e sem etapa de build: abrir o `index.html` no navegador já mostra
 o resultado final. As únicas requisições externas são as fontes do Google Fonts.
