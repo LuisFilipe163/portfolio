@@ -3,10 +3,10 @@
 Página de apresentação dos meus projetos, publicada com GitHub Pages. Em português e
 inglês, com seletor de idioma no topo.
 
-O projeto apresentado é o **Fatura Social**: dívidas entre amigos, contas divididas e
-cobranças por Pix. Uma API em ASP.NET Core (.NET 8) atende um app Android (.NET MAUI
-Blazor) e um app Windows (WPF), com JWT, SignalR, push pelo Firebase e 492 testes em
-xUnit.
+O projeto apresentado é o **Fatura Social** (alfa, v0.1.0): dívidas entre amigos,
+contas divididas e cobranças por Pix. Uma API em ASP.NET Core (.NET 10) atende um app
+Android (.NET MAUI Blazor) e um app Windows (WPF), que dividem uma biblioteca Core, com
+JWT, SignalR, push pelo Firebase no Android e 658 testes em xUnit.
 
 ## Estrutura
 
