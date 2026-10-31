@@ -4,8 +4,8 @@
 <script>document.documentElement.className+=" js";</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Luis Filipe Rezende — Desenvolvedor full-stack .NET</title>
-<meta name="description" content="Portfólio de Luis Filipe Rezende, desenvolvedor .NET do Rio de Janeiro. Fatura Social, app de finanças entre amigos, e Mesa do Mestre, ferramenta para mestres de RPG.">
+<title>Luis Filipe Rezende — Desenvolvedor .NET</title>
+<meta name="description" content="Portfólio de Luis Filipe Rezende, desenvolvedor .NET do Rio de Janeiro formado em Análise e Desenvolvimento de Sistemas. Fatura Social, app de cobranças entre amigos, e Mesa do Mestre, ferramenta para mestres de RPG.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -275,6 +275,7 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
   background:var(--bg-3);border-left:2px solid var(--accent);border-radius:0 10px 10px 0;font-size:.96rem;
 }
 .note strong{font-weight:700}
+.note a{color:var(--accent);text-underline-offset:3px}
 
 /* dados em pixel art */
 .dice{display:flex;flex-wrap:wrap;align-items:center;gap:clamp(.55rem,2vw,1rem);margin-top:1.75rem;padding-top:1.5rem;border-top:1px solid var(--line)}
@@ -348,15 +349,16 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
   <!-- ======================= hero ======================= -->
   <section class="hero" id="inicio">
     <div class="wrap">
-      <span class="status rise"><i class="dot" aria-hidden="true"></i> Aberto a oportunidades</span>
+      <span class="status rise"><i class="dot" aria-hidden="true"></i> Disponível para vagas .NET</span>
 
       <span class="mono hello rise">Olá, eu sou</span>
       <h1 class="rise">Luis Filipe Rezende</h1>
-      <p class="role rise" id="role" aria-label="Desenvolvedor full-stack .NET"><span class="caret">|</span></p>
+      <p class="role rise" id="role" aria-label="Desenvolvedor .NET"><span class="caret">|</span></p>
 
       <p class="pitch rise">
-        Desenvolvedor .NET do Rio de Janeiro. Mantenho software corporativo em C# durante
-        o dia e, fora dele, construo dois aplicativos que eu mesmo uso —
+        Formado em Análise e Desenvolvimento de Sistemas, passei dois anos mantendo um ERP
+        em C# em produção — código legado, consultas MySQL e emissão de NF-e. Por conta
+        própria, construo dois aplicativos que eu mesmo uso,
         <strong>onde o sistema calcula o que ninguém deveria acompanhar à mão</strong>.
       </p>
 
@@ -366,10 +368,10 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
       </div>
 
       <div class="stats">
-        <div class="stat rise"><b data-conta="2">0</b><span>Anos com C# e .NET</span></div>
-        <div class="stat rise"><b data-conta="2">0</b><span>Aplicativos autorais</span></div>
-        <div class="stat rise"><b data-conta="12">0</b><span>Classes de D&amp;D mapeadas em regra</span></div>
-        <div class="stat rise"><b data-texto="C1">—</b><span>Inglês certificado no EF SET</span></div>
+        <div class="stat rise"><b data-conta="492">0</b><span>Testes automatizados aprovados no Fatura Social</span></div>
+        <div class="stat rise"><b data-conta="2">0</b><span>Anos mantendo um ERP em C# em produção</span></div>
+        <div class="stat rise"><b data-conta="12">0</b><span>Classes de D&amp;D mapeadas em regra na Mesa do Mestre</span></div>
+        <div class="stat rise"><b data-texto="C1">—</b><span>Inglês avançado, certificado pelo EF SET</span></div>
       </div>
     </div>
   </section>
@@ -385,10 +387,11 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
       <div class="about-grid">
         <div class="rise">
           <p>
-            Estudo Análise e Desenvolvimento de Sistemas na Unisuam e trabalho na Vidros Rio
-            desde agosto de 2024, dando manutenção a um sistema corporativo em C# .NET com
-            Windows Forms — software legado, banco MySQL, APIs REST e DLLs de emissão de
-            nota fiscal.
+            Me formei em Análise e Desenvolvimento de Sistemas pela UNISUAM em 2026. De agosto
+            de 2024 a julho de 2026 estagiei na VidrosRio, mantendo um ERP em produção em
+            C# .NET Framework 4.8 com Windows Forms, DevExpress e MySQL — correção de código
+            legado, otimização de consultas e emissão de NF-e, incluindo a adequação à
+            Reforma Tributária.
           </p>
           <p>
             É de lá que vem o gosto por duas coisas: <strong>entender um sistema que já
@@ -397,8 +400,8 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
             Windows Forms para WPF que eu queria fazer, feita por conta própria.
           </p>
           <p>
-            Os dois projetos aqui são local-first, rodam hoje na minha máquina e resolvem
-            um problema que eu tinha de verdade. Nenhum é exercício de curso.
+            Os dois projetos aqui resolvem um problema que eu tinha de verdade e funcionam
+            sem internet. Nenhum é exercício de curso.
           </p>
         </div>
 
@@ -406,9 +409,9 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
           <table class="facts">
             <tbody>
               <tr><th>Local</th><td>Rio de Janeiro, RJ</td></tr>
-              <tr><th>Formação</th><td>Análise e Desenvolvimento de Sistemas · Unisuam</td></tr>
-              <tr><th>Hoje</th><td>Estágio em desenvolvimento · Vidros Rio</td></tr>
-              <tr><th>Foco</th><td>C# · .NET · WPF · ASP.NET Core</td></tr>
+              <tr><th>Formação</th><td>Tecnólogo em ADS · UNISUAM, 2026</td></tr>
+              <tr><th>Última experiência</th><td>VidrosRio · ERP em C# · ago/2024 – jul/2026</td></tr>
+              <tr><th>Foco</th><td>C# · .NET · ASP.NET Core · WPF</td></tr>
               <tr><th>Idiomas</th><td>Português nativo · Inglês C1</td></tr>
             </tbody>
           </table>
@@ -422,21 +425,19 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
     <div class="wrap">
       <div class="section-head">
         <p class="mono kicker rise">Experiência</p>
-        <h2 class="rise">Onde eu trabalho</h2>
+        <h2 class="rise">Onde trabalhei</h2>
       </div>
 
       <ul class="timeline">
         <li class="rise">
-          <span class="tl-when">08/2024 — atualmente</span>
-          <h3>Estágio em desenvolvimento</h3>
-          <p class="tl-where">Vidros Rio</p>
+          <span class="tl-when">ago/2024 — jul/2026</span>
+          <h3>Estagiário de Desenvolvimento de Software</h3>
+          <p class="tl-where">VidrosRio · ERP em C# .NET Framework 4.8, Windows Forms (DevExpress) e MySQL</p>
           <ul>
-            <li>Suporte e manutenção do sistema corporativo em C# .NET com Windows Forms e DevExpress.</li>
-            <li>Atualização e manutenção de softwares legados.</li>
-            <li>Gestão do banco de dados MySQL.</li>
-            <li>Desenvolvimento e integração com APIs Web RESTful.</li>
-            <li>Manipulação de DLLs para emissão de notas fiscais.</li>
-            <li>Desenvolvimento de novas funcionalidades aplicando orientação a objetos.</li>
+            <li>Manutenção e evolução de um ERP em produção, com correção de falhas em código legado e otimização de consultas MySQL.</li>
+            <li>Adequação da NF-e à Reforma Tributária (IBS/CBS, NT 2025.002), com regras fiscais por operação e validação de XMLs em testes.</li>
+            <li>Desenvolvimento, junto a um desenvolvedor sênior, de uma API REST para emissão de NF-e, integrando as DLLs nativas do ACBr.</li>
+            <li>Documentação no GitLab e gestão de demandas no Trello.</li>
           </ul>
         </li>
       </ul>
@@ -462,19 +463,25 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
         <div class="skill-row rise">
           <h3>.NET</h3>
           <ul class="tags">
-            <li>.NET 8</li><li>WPF</li><li>Windows Forms</li><li>ASP.NET Core</li><li>.NET MAUI</li><li>Entity Framework Core</li><li>MVVM</li><li>SignalR</li><li>JWT</li><li>DevExpress</li>
+            <li>.NET 8</li><li>.NET Framework 4.8</li><li>ASP.NET Core</li><li>Entity Framework Core</li><li>WPF</li><li>Windows Forms</li><li>.NET MAUI</li><li>Blazor Hybrid</li><li>MVVM</li>
           </ul>
         </div>
         <div class="skill-row rise">
-          <h3>Dados</h3>
+          <h3>Backend e dados</h3>
           <ul class="tags">
-            <li>SQLite</li><li>MySQL</li><li>Migrations</li><li>Modelagem relacional</li>
+            <li>APIs REST</li><li>JWT</li><li>SignalR</li><li>Firebase Cloud Messaging</li><li>DLLs nativas</li><li>MySQL</li><li>SQLite</li><li>xUnit</li>
           </ul>
         </div>
         <div class="skill-row rise">
-          <h3>Outros</h3>
+          <h3>Fiscal</h3>
           <ul class="tags">
-            <li>APIs REST</li><li>Git</li><li>GitHub</li><li>Node.js</li><li>Programação orientada a objetos</li><li>Pixel art</li>
+            <li>NF-e</li><li>ACBr</li><li>Reforma Tributária (IBS/CBS)</li><li>Validação de XML</li>
+          </ul>
+        </div>
+        <div class="skill-row rise">
+          <h3>Ferramentas</h3>
+          <ul class="tags">
+            <li>Visual Studio</li><li>DevExpress</li><li>Git</li><li>GitHub</li><li>GitLab</li><li>Trello</li>
           </ul>
         </div>
       </div>
@@ -497,7 +504,7 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
         <div class="p-head">
           <div class="p-top">
             <span class="p-num">01</span>
-            <span class="badge">Em uso</span>
+            <span class="badge">Em desenvolvimento</span>
             <span class="p-year">2026</span>
           </div>
           <h3>Fatura Social</h3>
@@ -506,7 +513,8 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
             churrasco do grupo — e depois viveu a parte chata. Cobrar constrange, a memória
             falha e quem passou o cartão banca o atraso de todos. O Fatura Social registra
             cada pendência com nome e valor, acompanha quem já pagou e deixa a cobrança por
-            Pix pronta para enviar.
+            Pix pronta para enviar. Roda no desktop e no celular, com os mesmos dados
+            sincronizados por uma API própria.
           </p>
         </div>
 
@@ -559,23 +567,23 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
             <li><span class="fn">05</span><h4>Painel e histórico</h4>
               <p>Saldo líquido, o que já foi liquidado e o que está atrasado, mais o histórico mensal do que foi quitado.</p></li>
             <li><span class="fn">06</span><h4>Notificações e temas</h4>
-              <p>Aviso quando uma fatura está prestes a fechar, e tema claro ou escuro salvo por usuário.</p></li>
+              <p>Avisos de cobrança e de fechamento de fatura por notificação push, mesmo com o app fechado, e tema claro ou escuro por usuário.</p></li>
           </ul>
 
           <div class="p-foot">
             <div>
               <h4>Stack</h4>
               <ul class="tags">
-                <li>C#</li><li>.NET 8</li><li>WPF</li><li>ASP.NET Core</li><li>EF Core</li><li>SignalR</li><li>JWT</li><li>SQLite</li><li>.NET MAUI</li>
+                <li>C#</li><li>.NET 8</li><li>ASP.NET Core</li><li>WPF</li><li>.NET MAUI</li><li>Blazor Hybrid</li><li>MudBlazor</li><li>EF Core</li><li>SQLite</li><li>SignalR</li><li>Firebase Cloud Messaging</li><li>JWT</li><li>xUnit</li><li>QRCoder</li>
               </ul>
             </div>
             <div>
               <h4>Plataformas</h4>
               <table class="facts">
                 <tbody>
-                  <tr><th>Desktop</th><td>Windows · WPF — em uso</td></tr>
-                  <tr><th>API</th><td>.NET 8 — em desenvolvimento</td></tr>
-                  <tr><th>Mobile</th><td>.NET MAUI — planejado</td></tr>
+                  <tr><th>Desktop</th><td>Windows · WPF</td></tr>
+                  <tr><th>Mobile</th><td>.NET MAUI · Blazor Hybrid · MudBlazor</td></tr>
+                  <tr><th>API</th><td>ASP.NET Core · JWT · SignalR · push</td></tr>
                 </tbody>
               </table>
             </div>
@@ -583,18 +591,21 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
               <h4>Decisões de engenharia</h4>
               <table class="facts">
                 <tbody>
-                  <tr><th>Local-first</th><td>Dados no dispositivo; funciona sem internet</td></tr>
+                  <tr><th>Offline</th><td>Registros no SQLite local, sincronizados quando a conexão volta</td></tr>
+                  <tr><th>Regras únicas</th><td>Mesmo código de negócio nos clientes e na API</td></tr>
                   <tr><th>Status derivado</th><td>Calculado pelo ciclo do cartão, não digitado</td></tr>
-                  <tr><th>Bilateral</th><td>Devedor declara, credor confirma</td></tr>
-                  <tr><th>Pix</th><td>QR Code no padrão EMV do Banco Central</td></tr>
+                  <tr><th>Tempo real</th><td>SignalR e notificações push via Firebase</td></tr>
+                  <tr><th>Testes</th><td>492 testes em xUnit aprovados em 01/10/2026</td></tr>
                 </tbody>
               </table>
             </div>
           </div>
 
           <p class="note">
-            <strong>Código-fonte privado.</strong> Se você é recrutador ou quer ver o
-            aplicativo funcionando, apresento em uma conversa ou demonstração ao vivo.
+            <strong>Código-fonte privado</strong>, com repositório público de apresentação em
+            <a href="https://github.com/LuisFilipe163/FaturaSocial" target="_blank" rel="noopener">github.com/LuisFilipe163/FaturaSocial</a>.
+            Desenvolvido com apoio do Claude AI. Se você é recrutador, apresento o aplicativo
+            rodando ao vivo.
           </p>
         </div>
       </article>
@@ -698,31 +709,31 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
 
       <ul class="timeline">
         <li class="rise">
-          <span class="tl-when">Em andamento · 5º período</span>
-          <h3>Análise e Desenvolvimento de Sistemas</h3>
-          <p class="tl-where">Universidade Augusto Motta — Unisuam</p>
+          <span class="tl-when">2024 — 2026</span>
+          <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+          <p class="tl-where">UNISUAM · Rio de Janeiro</p>
         </li>
         <li class="rise">
-          <span class="tl-when">Concluído</span>
-          <h3>Desenvolvimento Web</h3>
-          <p class="tl-where">Ampli Anhanguera</p>
+          <span class="tl-when">2023 — 2025</span>
+          <h3>Tecnólogo em Desenvolvimento Web</h3>
+          <p class="tl-where">Centro Universitário Anhanguera Pitágoras Ampli</p>
         </li>
         <li class="rise">
           <span class="tl-when">2024</span>
           <h3>C# Completo</h3>
-          <p class="tl-where">Udemy</p>
-          <ul><li>Linguagem C#, orientação a objetos, interfaces, SQL, web services, DLLs e programação paralela.</li></ul>
+          <p class="tl-where">Udemy · 27,5 h</p>
+          <ul><li>POO, interfaces desktop, DLLs nativas, serviços web, sockets e programação paralela.</li></ul>
         </li>
         <li class="rise">
           <span class="tl-when">2023</span>
-          <h3>Fundamentar e Discover</h3>
-          <p class="tl-where">Rocketseat</p>
-          <ul><li>HTML, CSS, JavaScript, DOM, terminal, Node.js, EJS, SQL, estrutura de dados, POO, programação funcional, Git, GitHub e HTTP.</li></ul>
+          <h3>Fundamentar</h3>
+          <p class="tl-where">Rocketseat · 28 h</p>
+          <ul><li>Estruturas de dados, POO, programação funcional, SQL, Node.js, Git e HTTP.</li></ul>
         </li>
         <li class="rise">
-          <span class="tl-when">Junho de 2023</span>
-          <h3>Inglês C1 avançado</h3>
-          <p class="tl-where">EF SET Certificate</p>
+          <span class="tl-when">2023</span>
+          <h3>Inglês avançado (C1)</h3>
+          <p class="tl-where">EF SET</p>
         </li>
       </ul>
     </div>
@@ -736,14 +747,15 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
     <p class="mono kicker rise">Contato</p>
     <h2 class="rise">Quer ver os aplicativos funcionando?</h2>
     <p class="sub rise">
-      Eu demonstro ao vivo: uma conta dividida virando QR Pix, ou uma ficha de personagem
-      preenchendo os espaços de magia sozinha. Respondo por e-mail ou LinkedIn.
+      Estou disponível para vagas de desenvolvimento .NET. Respondo por e-mail ou LinkedIn,
+      e demonstro ao vivo: uma conta dividida virando QR Pix, ou uma ficha de personagem
+      preenchendo os espaços de magia sozinha.
     </p>
 
     <ul class="links rise">
       <li><a href="mailto:luis.filipe16301@gmail.com">luis.filipe16301@gmail.com</a></li>
       <li><a href="https://www.linkedin.com/in/luis-filipe-rezende/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
-      <li><a href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">GitHub ↗</a></li>
+      <li><a href="https://github.com/LuisFilipe163" target="_blank" rel="noopener">GitHub ↗</a></li>
       <li><a href="assets/curriculo-luis-filipe-rezende.pdf" target="_blank" rel="noopener">Currículo ↓</a></li>
     </ul>
 
@@ -761,7 +773,7 @@ h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
   /* ---------- máquina de escrever no cargo ---------- */
   var role = document.getElementById('role');
   if (role) {
-    var frases = ['Desenvolvedor full-stack .NET', 'C# · WPF · ASP.NET Core', 'Rio de Janeiro, Brasil'];
+    var frases = ['Desenvolvedor .NET', 'C# · ASP.NET Core · WPF', 'Rio de Janeiro, Brasil'];
     if (reduz) {
       role.textContent = frases[0];
     } else {
