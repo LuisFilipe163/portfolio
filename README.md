@@ -3,11 +3,10 @@
 Página de apresentação dos meus projetos, publicada com GitHub Pages. Em português e
 inglês, com seletor de idioma no topo.
 
-- **Fatura Social** — dívidas entre amigos, contas divididas e cobranças por Pix. Uma
-  API em ASP.NET Core (.NET 8) atende um app Android (.NET MAUI Blazor) e um app
-  Windows (WPF), com JWT, SignalR, push pelo Firebase e 492 testes em xUnit.
-- **Mesa do Mestre** — ferramenta desktop para mestres de RPG, reescrita de Windows
-  Forms para WPF com MVVM, EF Core e SQLite.
+O projeto apresentado é o **Fatura Social**: dívidas entre amigos, contas divididas e
+cobranças por Pix. Uma API em ASP.NET Core (.NET 8) atende um app Android (.NET MAUI
+Blazor) e um app Windows (WPF), com JWT, SignalR, push pelo Firebase e 492 testes em
+xUnit.
 
 ## Estrutura
 
@@ -15,8 +14,8 @@ inglês, com seletor de idioma no topo.
 index.html                  página inteira, autocontida (ver abaixo)
 assets/fatura/              imagens da galeria em tamanho real, abertas ao clicar
 assets/curriculo-*.pdf      currículo oferecido para download na página
-assets/prints/, assets/dados/, assets/logo-mesa.png
-                            da versão anterior da página; não são mais usados
+assets/prints/              capturas reais do app Windows, da versão anterior da
+                            página; não são usadas pela página atual
 ```
 
 O `index.html` é um export autocontido do design Nocturne: template, design system,
